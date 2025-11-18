@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnSimpleList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView cơ bản" />
+
+    <Button
+        android:id="@+id/btnCustomOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom ListView (OS)"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnFoodList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 1 - Custom ListView món ăn"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnFoodGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 2 - Custom GridView món ăn"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnFoodCrud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 3* - Thêm/Sửa/Xóa món ăn"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

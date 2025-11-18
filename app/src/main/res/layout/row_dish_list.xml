@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgDish"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_food_1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/txtDishName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên món ăn"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtDishDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô tả món ăn"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtDishPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 VND"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

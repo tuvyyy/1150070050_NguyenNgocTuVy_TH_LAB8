@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a1150070050_nguyenngoctuvy_th_lab8">
+
+    <application
+        android:allowBackup="true"
+        android:label="1150070050_NguyenNgocTuVy_TH_LAB8"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App">
+
+        <activity android:name=".FoodCrudActivity" />
+        <activity android:name=".FoodGridActivity" />
+        <activity android:name=".FoodListActivity" />
+        <activity android:name=".CustomOSListActivity" />
+        <activity android:name=".SimpleListActivity" />
+
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
